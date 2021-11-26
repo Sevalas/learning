@@ -1,0 +1,85 @@
+body {
+    background-color: #eee;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 45px;
+    background-color: rgb(205, 76, 211);
+}
+li {
+    float: left;
+    color: white;
+}
+li a{
+    display: block;
+    color: white;
+    padding: 13px;
+    width: 65px;
+    text-decoration: none;
+}
+li:hover {
+    background-color: rgba(237, 114, 243, 0.74);
+}
+.active {
+    background-color:rgb(231, 36, 95)
+}
+.main {
+    margin-top: 45px;
+    padding-top: 15px;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(231, 36, 95);
+    min-width: 64px;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.2);
+}
+.dropdown-content a {
+    color: white;
+    padding: 12px 13px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {
+    background-color: red;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.formBox {
+    background-color: rgba(238, 238, 238, 0.671);
+    padding: 12px 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 2px rgba(0,0,0,0.1);
+}
+input[type=text], textarea {
+    width: 100%;
+    padding: 3px 8px;
+    margin: 4px 0;
+    display: inline-block;
+    border: 1px solid rgb(159, 25, 177);
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+input[type=submit] {
+    width: 100%;
+    background-color: rgb(159, 25, 177);
+    color: white;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+textarea {
+    resize: vertical;
+}

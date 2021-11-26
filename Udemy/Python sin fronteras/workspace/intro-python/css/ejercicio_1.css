@@ -1,0 +1,34 @@
+body {
+    background-color: #eee;
+}
+h2 {
+    margin: 0;
+}
+.boxBase {
+    width: 400px;
+    margin: 10px 15px;
+    padding: 10px 15px;
+    vertical-align: middle;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 2px 4px 3px rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+.boxRed {
+    border-left: 4px red solid;
+}
+.boxRed:hover {
+    transform: scale(1.05,1.05);
+}
+.boxGreen {
+    border-left: 4px green solid;
+}
+.boxGreen:hover {
+    box-shadow: 4px 6px 4px rgba(0,0,0,0.3)
+}
+.boxBlue {
+    border-left: 4px blue solid;
+}
+.boxBlue:hover {
+    background-color: rgba(0, 0, 255, 0.041);
+}

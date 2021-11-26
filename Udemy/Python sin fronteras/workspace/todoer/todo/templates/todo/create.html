@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block header %}
+    <h1>{% block title %}CREATE{% endblock %}</h1>
+{% endblock %}
+
+{% block content %}
+    <form method="POST">
+        <label for="description">Description</label>
+        <input type="text" name="description" id="description" required/>
+        <label for="completed">State</label>
+        <select name="completed" id="completed">
+            <option value="0">In progress</option>
+            <option value="1">Completed</option>
+        </select>
+        <input type="submit" value="save"/>
+    </form>
+{% endblock %}

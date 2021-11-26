@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Navbar</title>
+        <link rel="stylesheet" href="navbar.css" type="text/css"/>
+    </head>
+    <body>
+        <ul>
+            <li class="active">
+                <div class="dropdown">
+                    <a class="dropdown-btn" href="#">Home</a>
+                    <div class="dropdown-content">
+                        <a href="#">1</a>
+                        <a href="#">2</a>
+                        <a href="#">3</a>
+                    </div>
+                </div>
+            </li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+        <div class="main">
+            <div class="formBox">
+                <form>
+                    <label>Name</label>
+                    <input type="text" id="name" name="name" placeholder="Manjiro..."/>
+                    <label>Last name</label>
+                    <input type="text" id="lastName" name="lastName" placeholder="Sano..."/>
+                    <label>Message</label>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                    <input type="submit" value="Accept"/>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,8 @@
+{
+    "python.autoComplete.extraPaths": [
+        "C:/Users/s.valencia.lasprilla/Desktop/Learning/Udemy/\"Python sin fronteras\"/workspace/intro-flask/venv/Lib/site-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "C:/Users/s.valencia.lasprilla/Desktop/Learning/Udemy/\"Python sin fronteras\"/workspace/intro-flask/venv/Lib/site-packages"
+    ],
+}

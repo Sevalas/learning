@@ -1,0 +1,133 @@
+body {
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 1em;
+   font-style: normal;
+   font-weight: 600;
+   padding-top: 15px;
+   background-color: #efefef;
+}
+h3 {
+   margin: 0;
+}
+hr {
+   margin-top: 10px;
+   margin-bottom: 10px;
+   background-color:#888888;
+   border-radius: 40px;
+}
+p {
+   color: rgb(31, 31, 156);
+   text-align: justify;
+   text-indent: 10%;
+   line-height: 1.6;
+   text-shadow: 1px 1px 5px gray;
+}
+.Amodified {
+   display: inline-block;
+   text-decoration: none;
+   text-transform: uppercase;
+   letter-spacing: 3px;
+   word-spacing: 3px;
+   background-color: rgb(9, 244, 252);
+   border: solid 1px rgb(9, 158, 163);
+   padding: 7px;
+   margin-top: 7px;
+   border-radius: 10px;
+}
+a:link {
+   color: rgb(201, 55, 201);
+}
+a:visited {
+   color: hotpink;
+}
+a:hover {
+   color:green;
+   text-decoration: underline;
+}
+a:active {
+   color: black;
+   background-color: hotpink;
+}
+.box {
+   width: 95%;
+   margin: auto;
+   background-color: white;
+   padding: 10px;
+   box-shadow: 5px 5px 5px #888888;
+}
+#accept {
+   background-color: rgb(27, 170, 27);
+   color: white;
+   border: none;
+   border-radius: 3px;
+   height: 30px;
+   width: 70px;
+}
+#cancel {
+   background-color: rgb(139, 148, 139);
+   color: white;
+   border: none;
+   border-radius: 3px;
+   height: 30px;
+   width: 70px;
+}
+.divis {
+   margin:100px auto;
+   width: 37px;
+   height: 210px;
+   background:rgb(27, 170, 27);
+}
+ul {
+   border: solid 1px rgb(221, 212, 212);
+   border-radius: 10px;
+   background-color: rgb(243, 234, 234);
+   list-style-type: none;
+   padding-left: 0px;
+}
+li {
+   border-bottom: solid 1px rgb(221, 212, 212);
+   padding: 10px
+}
+table {
+   width: 100%;
+   background-color: rgb(221, 212, 212);
+   border-collapse: collapse;
+}
+tr:nth-child(even) {
+   background-color: rgb(243, 234, 234);
+}
+td{
+   padding: 5px;
+   border: solid 1px rgba(143, 143, 143, 0.466)
+}
+th {
+   background-color: hotpink;
+   color: white;
+   border: solid 1px rgba(143, 143, 143, 0.466);
+   padding-top: 7px;
+   padding-bottom: 7px;
+}
+#invisible {
+   display: none;
+}
+.pModified {
+   margin: auto;
+   max-width: 200px;
+   background-color: yellow;
+   position: relative;
+   left: 15px;
+}
+#over {
+   width: 100px;
+   height: 95px;
+   overflow-x: scroll;
+}
+img {
+   float: right;
+}
+img:hover {
+   opacity: 0.8;
+}
+#divWithImage p {
+   color: red;
+}

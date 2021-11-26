@@ -1,0 +1,41 @@
+body {
+    background-color: #eee;
+}
+.background {
+    height: 600px;
+    background-color: beige;
+    background-image: url('https://picsum.photos/300/400');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+    background-size: cover;
+    /* se puede escribir todas las propiedades de bacjground en una sola */
+    /* background: beige url('https://picsum.photos/300/400') no-repeat center scroll; */
+}
+.background2 {
+    height: 200px;
+   /* background-color: rgba(0,0,255,0.3); */
+   background-color: hsl(120, 60%, 70%, 0.3);
+   opacity: 1; /* afecta al elemento y no solo a el background */
+}
+.background3 {
+    background-image: repeating-linear-gradient(0deg,white 10%, red 30%, green 50%)
+}
+.box {
+    box-shadow: 0px 1px 2px rgba(0,0,0,0.3);
+}
+.text {
+    color: white;
+    text-shadow: 0px 1px 2px rgba(0,0,0,0.5);;
+}
+.box2 {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    box-shadow: 1px 2px 2px rgba(0,0,0,0.2);
+    transform: rotate(20deg) translate(150px, 0px);
+    transition: transform 0.5s 0.1s;
+}
+.box2:hover {
+    transform: rotate(20deg) translate(150px, 0px) scale(1.5,1.5) skew(18deg,10deg);
+}
